@@ -1,0 +1,22 @@
+{
+  "name": "perrydb",
+  "version": "1.0.0",
+  "description": "Peristaltic DataBase for LLM and RTC Operations",
+  "main": "perrydb.js",
+  "scripts": {
+    "start": "npm run build && node ./js/out/perrydb.js",
+    "build": "tsc",
+    "test": "npm run build && node --test ./js/out/*test.js"
+  },
+  "author": "emdiet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emdiet/PerryDB"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  },
+  "type": "module"
+}
